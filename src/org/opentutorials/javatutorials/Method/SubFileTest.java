@@ -18,7 +18,7 @@ public class SubFileTest {
 				// if(file.getName().contains("ini")) {
 
 				// ������ �ִٸ� ���� �̸� ����
-				System.out.println("\t ���� �̸� = " + file.getName());
+				System.out.println("\t filename = " + file.getName());
 
 			}
 		}
@@ -26,15 +26,14 @@ public class SubFileTest {
 	}
 
 	public static void main(String[] args) {
-		String path = "c:\\";
+		String path = args[0];
 		System.out.println("### " + path + " result");
 		// TODO Auto-generated method stub
 		getFileList(path);
 
-		path = "c:\\db";
-		System.out.println("### " + path + " result");
-		// TODO Auto-generated method stub
-		getFileList(path);
+//		path = "c:\\db";
+//		System.out.println("### " + path + " result");
+//		getFileList(path);
 	}
 
 }

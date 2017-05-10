@@ -10,6 +10,6 @@ abstract class A{
 }
 public class AbstractDemo {
     public static void main(String[] args) {
-        A obj = new A();
+      //  A obj = new A();
     }
 }
